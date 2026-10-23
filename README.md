@@ -12,6 +12,17 @@
 
 解压的格式自动识别部分基于 [Masuit.Tools（码数吐司库）](https://www.masuit.tools/) 的 `SevenZipCompressor`，其余走 .NET 自带 API。
 
+## 直接下载（免编译）
+
+到 [Releases](../../releases/latest) 页面下载，解压即用（需要 .NET 8 运行时）：
+
+| 附件 | 解压后得到 | 说明 |
+|---|---|---|
+| `MasuitZip-1.0.0-win-x64.zip` | `一键压缩.exe` | 桌面版，双击打开窗口 |
+| `MasuitUnzip.exe` | 直接运行 | 命令行版 |
+
+> 桌面版打成 zip 是因为 GitHub 附件名不支持中文，直接传中文名会变成 `default.exe`。
+
 ![界面示意](docs/ui-mockup.svg)
 
 ---
