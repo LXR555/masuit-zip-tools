@@ -1,0 +1,46 @@
+# ---------- 构建产物 ----------
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+*.exe
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+*.nupkg
+*.snupkg
+
+# ---------- 生成物 ----------
+# 应用图标由 python make_icon.py 生成，不入库
+app.ico
+# 自检报告（--selftest 的输出）
+selftest-report.txt
+# 界面离屏渲染的临时截图
+*.shot.png
+
+# ---------- IDE / 编辑器 ----------
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# ---------- 本机构建缓存 ----------
+*.binlog
+.vsconfig
+project.lock.json
+project.assets.json
+.project.lock.json
+
+# ---------- 系统垃圾文件 ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

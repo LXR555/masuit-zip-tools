@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>MasuitUnzip</AssemblyName>
+    <RootNamespace>MasuitUnzip</RootNamespace>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Product>MasuitUnzip</Product>
+    <Company>Masuit.Tools 使用示例</Company>
+    <Description>基于 Masuit.Tools(码数吐司库) 的压缩包解压/压缩小工具</Description>
+    <SatelliteResourceLanguages>zh-Hans</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Masuit.Tools.Abstractions" Version="2026.3.4" />
+  </ItemGroup>
+
+</Project>

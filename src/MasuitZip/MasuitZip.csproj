@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>一键压缩</AssemblyName>
+    <RootNamespace>MasuitZip</RootNamespace>
+    <!-- app.ico 是生成物（python make_icon.py），没有它也能编译，只是 exe 没图标 -->
+    <ApplicationIcon Condition="Exists('app.ico')">app.ico</ApplicationIcon>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Product>一键压缩</Product>
+    <Company>本地工具</Company>
+    <Description>拖进来就压缩 / 一键解压，替代系统自带压缩窗口</Description>
+    <SatelliteResourceLanguages>zh-Hans</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Masuit.Tools.Abstractions" Version="2026.3.4" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 562" width="660" height="562" font-family="Microsoft YaHei, Segoe UI, PingFang SC, sans-serif">
+  <defs>
+    <linearGradient id="titlebar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4f6fa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 窗口外框 -->
+  <rect x="0.5" y="0.5" width="659" height="561" rx="6" fill="#F8F9FB" stroke="#C9D0DB"/>
+
+  <!-- 标题栏 -->
+  <path d="M0.5 6.5 A6 6 0 0 1 6.5 0.5 H653.5 A6 6 0 0 1 659.5 6.5 V32 H0.5 Z" fill="url(#titlebar)"/>
+  <line x1="0.5" y1="32" x2="659.5" y2="32" stroke="#E3E7EE"/>
+  <text x="14" y="21" font-size="12" fill="#3C4250">一键压缩 · 拖进来就行</text>
+  <g stroke="#8A93A3" stroke-width="1.2" fill="none">
+    <line x1="592" y1="15" x2="602" y2="15"/>
+    <rect x="612" y="9" width="9" height="9"/>
+    <line x1="633" y1="9" x2="641" y2="17"/>
+    <line x1="641" y1="9" x2="633" y2="17"/>
+  </g>
+
+  <!-- ===== ① 压缩 ===== -->
+  <g transform="translate(14,44)">
+    <rect x="0.5" y="6.5" width="624" height="293" rx="3" fill="none" stroke="#D3D9E3"/>
+    <rect x="12" y="0" width="58" height="13" fill="#F8F9FB"/>
+    <text x="16" y="11" font-size="11.5" fill="#3C4250">① 压缩</text>
+
+    <text x="14" y="26" font-size="11.5" fill="#6E7684">把文件 / 文件夹拖进下面的白框（可拖多个），或者用右边的按钮添加</text>
+
+    <!-- 列表 -->
+    <rect x="14.5" y="44.5" width="428" height="140" fill="#FFFFFF" stroke="#C9D0DB"/>
+    <text x="24" y="62" font-size="11.5" fill="#3C4250">D:\销售资料\客户清单.xlsx</text>
+    <text x="24" y="82" font-size="11.5" fill="#3C4250">D:\销售资料\报价单-2026.pdf</text>
+    <text x="24" y="102" font-size="11.5" fill="#3C4250">D:\销售资料\样本照片\</text>
+
+    <!-- 右侧按钮 -->
+    <g font-size="11.5">
+      <rect x="452.5" y="44.5" width="158" height="32" rx="3" fill="#FDFDFE" stroke="#CED4DE"/>
+      <text x="531" y="65" text-anchor="middle" fill="#3C4250">添加文件…</text>
+      <rect x="452.5" y="82.5" width="158" height="32" rx="3" fill="#FDFDFE" stroke="#CED4DE"/>
+      <text x="531" y="103" text-anchor="middle" fill="#3C4250">添加文件夹…</text>
+      <rect x="452.5" y="120.5" width="158" height="32" rx="3" fill="#FDFDFE" stroke="#CED4DE"/>
+      <text x="531" y="141" text-anchor="middle" fill="#3C4250">移除选中</text>
+      <rect x="452.5" y="158.5" width="158" height="32" rx="3" fill="#FDFDFE" stroke="#CED4DE"/>
+      <text x="531" y="179" text-anchor="middle" fill="#3C4250">清空列表</text>
+    </g>
+
+    <!-- 名称 / 路径 -->
+    <text x="14" y="204" font-size="11.5" fill="#3C4250">压缩包名称</text>
+    <rect x="98.5" y="194.5" width="258" height="25" fill="#FFFFFF" stroke="#C9D0DB"/>
+    <text x="106" y="211" font-size="11.5" fill="#3C4250">销售资料</text>
+    <text x="362" y="204" font-size="11.5" fill="#3C4250">.zip</text>
+
+    <text x="14" y="240" font-size="11.5" fill="#3C4250">保存到</text>
+    <rect x="98.5" y="230.5" width="338" height="25" fill="#FFFFFF" stroke="#C9D0DB"/>
+    <text x="106" y="247" font-size="11.5" fill="#3C4250">C:\Users\Administrator\Desktop</text>
+    <rect x="444.5" y="229.5" width="80" height="28" rx="3" fill="#FDFDFE" stroke="#CED4DE"/>
+    <text x="484" y="248" text-anchor="middle" font-size="11.5" fill="#3C4250">浏览…</text>
+
+    <!-- 主按钮 -->
+    <rect x="14" y="264" width="510" height="32" rx="3" fill="#2F6FED"/>
+    <text x="269" y="285" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">开始压缩</text>
+  </g>
+
+  <!-- ===== ② 解压 ===== -->
+  <g transform="translate(14,352)">
+    <rect x="0.5" y="6.5" width="624" height="125" rx="3" fill="none" stroke="#D3D9E3"/>
+    <rect x="12" y="0" width="58" height="13" fill="#F8F9FB"/>
+    <text x="16" y="11" font-size="11.5" fill="#3C4250">② 解压</text>
+
+    <text x="14" y="34" font-size="11.5" fill="#3C4250">压缩包</text>
+    <rect x="78.5" y="24.5" width="368" height="25" fill="#FFFFFF" stroke="#C9D0DB"/>
+    <text x="86" y="41" font-size="11.5" fill="#6E7684">D:\下载\资料包.zip</text>
+    <rect x="452.5" y="23.5" width="80" height="28" rx="3" fill="#FDFDFE" stroke="#CED4DE"/>
+    <text x="492" y="42" text-anchor="middle" font-size="11.5" fill="#3C4250">选择…</text>
+
+    <text x="14" y="70" font-size="11.5" fill="#3C4250">解压到</text>
+    <rect x="78.5" y="60.5" width="368" height="25" fill="#FFFFFF" stroke="#C9D0DB"/>
+    <text x="86" y="77" font-size="11.5" fill="#3C4250">D:\下载\资料包</text>
+    <rect x="452.5" y="59.5" width="80" height="28" rx="3" fill="#FDFDFE" stroke="#CED4DE"/>
+    <text x="492" y="78" text-anchor="middle" font-size="11.5" fill="#3C4250">浏览…</text>
+
+    <text x="14" y="100" font-size="11" fill="#969CA8">默认解压到压缩包旁边的同名文件夹</text>
+    <text x="14" y="116" font-size="11" fill="#969CA8">支持 zip / rar / 7z / tar.gz / gz</text>
+
+    <rect x="366" y="94" width="166" height="32" rx="3" fill="#2F6FED"/>
+    <text x="449" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">开始解压</text>
+  </g>
+
+  <!-- ===== 底部状态区 ===== -->
+  <rect x="28.5" y="494.5" width="420" height="15" fill="#E6EAF1" stroke="#D3D9E3"/>
+  <rect x="28.5" y="494.5" width="182" height="15" fill="#2F6FED"/>
+
+  <rect x="522.5" y="488.5" width="128" height="28" rx="3" fill="#FDFDFE" stroke="#CED4DE"/>
+  <text x="586" y="507" text-anchor="middle" font-size="11.5" fill="#3C4250">打开输出位置</text>
+
+  <text x="28" y="532" font-size="11.5" fill="#6E7684">正在压缩 3/12：报价单-2026.pdf</text>
+</svg>
